@@ -1,0 +1,240 @@
+html
+{
+  font-size: 62.5%;
+}
+
+body{
+  font : 1.6rem sans-serif;
+  margin: 0;
+}
+
+
+#img-article {
+  background: url('../img/top.jpg') no-repeat center/cover;
+  width : 100% ;
+  height : 32.0rem ;
+  margin : 0 auto;
+}
+
+article {
+  display: block;
+  width : 100%;
+  padding: 0 2rem;
+}
+
+main  {
+	width: 100%;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  margin : auto;
+}
+
+main a {
+  text-decoration: none;
+}
+
+
+main h1 {
+  font :600 4.5rem  'Lato',  sans-serif ;
+	line-height: 1.07;
+	text-align: left;
+	color: #0b213b;
+  margin : 2rem 0 1.3rem 0;
+}
+
+main .author {
+  font: normal 1.3rem 'Lato', sans-serif;
+  margin : 0rem;
+  color : #979797;
+}
+
+main .author-name {
+  color: #e6373a;
+}
+
+
+main .date {
+  font: normal 1.4rem 'Lato', sans-serif;
+  margin : 0.3rem 0px 2rem 0px;
+  color : #979797;
+}
+
+main .date a {
+  text-decoration: none;
+    color : #979797;
+}
+
+.txt-courant {
+  margin : 0rem;
+  font: 2.2rem 'Crimson Text' sans-serif;
+  text-align: left;
+  color: #2e2e2e;
+  line-height: 1.5;
+}
+
+figure {
+  margin : 2rem 0px;
+}
+
+figure img {
+   width : 100%;
+   height : auto;
+}
+
+figcaption {
+  font:1.1rem Lato;
+  line-height: 2.0;
+  text-align: left;
+  color: #979797;
+}
+
+
+.special-element{
+  display: flex;
+}
+
+blockquote {
+  width: 100%;
+  margin : 0rem;
+}
+
+blockquote p {
+  font-size: 2.4rem;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.23;
+  letter-spacing: 0.02rem;
+  text-align: left;
+  color: #0b213b;
+  width : 100%;
+  margin : 0rem;
+}
+
+
+cite {
+  font: normal 1.6rem;
+  line-height: 2.0;
+  color: #979797;
+  margin : 0rem;
+}
+
+main h2 {
+  font:bold 3.0rem 'Lato', sans-serif;
+	line-height: 1.13;
+	text-align: left;
+	color: #0b213b;
+  margin : 20px 0px 15px 0px;
+}
+
+.txt-courant a {
+  font-style: italic;
+  color: #e6373a;
+  text-decoration: underline;
+}
+
+
+#tags {
+  margin : 2rem 0 0 0;
+  height : 5rem;
+}
+
+.article-tag {
+  font: 1.1rem 'Lato', sans-serif;
+  line-height: 2.18;
+  text-align: center;
+  color: #0b213b;
+  float:left;
+  padding : 0.5rem 1.8rem;
+  background-color: rgba(0,0,0,.05);
+  margin : 0 1rem 1rem 0;
+}
+
+
+.separator {
+  width : 100%;
+  height : 0.1rem;
+  background-color : #E1E1E1;
+  margin: 10rem 0 3rem 0;
+  display: block;
+}
+
+.comments-container {
+  margin-top : 3rem;
+}
+
+.comments-title {
+  margin : 0rem 2rem;
+  }
+
+  .comments-title h3 {
+      margin : 0rem;
+    }
+
+  .comments {
+    height: 3rem;
+  }
+
+  .comments-author {
+    font:italic 1.6rem 'Lato', sans-serif;
+    margin : 0rem;
+    color : #0B213B;
+  }
+
+  .author-commentimg {
+    float : left;
+  }
+  .author-commentimg img {
+    border-radius: 50%;
+  }
+
+  .comment-description {
+    margin : 0 0 0 8.5rem;
+  }
+
+  .comment-description .date {
+    margin : 0 0 1rem 0;
+  }
+
+  .comment-content {
+    font:italic 1.6rem 'Lato', sans-serif;
+    line-height: 1.5;
+    text-align: left;
+    color: #2e2e2e;
+    margin : 0rem;
+  }
+
+
+  .comment-separator {
+    width : 100%;
+    height : 0.1rem;
+    background-color : #E1E1E1;
+    margin: 3rem 0 3rem 0;
+  }
+
+.cta {
+  width : 20.1rem;
+  margin : 3.5rem auto;
+}
+
+.cta p {
+  font:bold 1.4rem 'Lato', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: #0b213b;
+  padding : 1rem 0;
+  border: solid 0.1rem #0b213b;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition : all 1s ease-out 0s;
+}
+
+.cta:hover, .cta p:hover{
+  background-color : #0b213b;
+  color : #fff;
+}
+
+footer p{
+  text-align: center;
+}
